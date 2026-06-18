@@ -1,9 +1,13 @@
-import { sql } from "@vercel/postgres"
+import postgres from "postgres"
+import { drizzle } from "drizzle-orm/postgres-js"
 import { config } from "dotenv"
-import { drizzle } from "drizzle-orm/vercel-postgres"
 
 import * as schema from "./schema"
 
 config({ path: ".env" })
 
-export const db = drizzle(sql, { schema })
+const client = postgres(process.env.POSTGRES_URL!, {
+  ssl: "require",
+})
+
+export const db = drizzle(client, { schema })
