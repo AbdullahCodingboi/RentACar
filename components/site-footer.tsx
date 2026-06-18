@@ -44,7 +44,7 @@ const footerLinks = [
 ]
 
 export function SiteFooter() {
-  const githubUrl = siteConfig.links.github
+  const githubUrl = "/"
 
   return (
     <footer className="border-t border-black/[0.06] py-12">
