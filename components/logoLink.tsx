@@ -10,7 +10,7 @@ export function LogoLink() {
       asChild
     >
       <Link href="/">
-        <CarhiveLogo className="h-4 shrink-0 lg:h-[17px]" />
+        Zeeshan Rent A Car
       </Link>
     </Button>
   );

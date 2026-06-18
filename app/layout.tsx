@@ -11,8 +11,8 @@ import { fontSans } from "@/lib/fonts"
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
+    default: "Zeeshan Rent A Car",
+    template: `%s - Zeeshan Rent A Car`,
   },
   description: siteConfig.description,
   authors: {
