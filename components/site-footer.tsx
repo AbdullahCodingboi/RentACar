@@ -80,25 +80,7 @@ export function SiteFooter() {
               </ul>
             ))}
           </nav>
-          <div className="col-span-full">
-            <p className="text-[13px] leading-6 text-neutral-600 sm:text-sm">
-              Built by{" "}
-              <Button
-                variant={"link"}
-                className="h-auto rounded-none p-0 text-[13px] font-normal leading-none sm:text-sm"
-                asChild
-              >
-                <a
-                  href={siteConfig.author.url}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <strong>eduamdev</strong>
-                </a>
-              </Button>
-              .
-            </p>
-          </div>
+         
         </div>
       </div>
     </footer>
