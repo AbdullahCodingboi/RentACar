@@ -21,7 +21,7 @@ import { UserCircleIcon } from "./icons/user-circle"
 import { Button } from "./ui/button"
 
 export function UserMenuButton() {
-  const githubUrl = siteConfig.links.github
+  const githubUrl ="/"
 
   return (
     <>
